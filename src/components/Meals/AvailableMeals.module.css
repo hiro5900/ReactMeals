@@ -11,33 +11,6 @@
      padding: 0;
 }
 
-.card{
-     background-color: white;
-     width: 65%;
-     margin: auto;
-     border-radius: 12px;
-}
-
-.mealName{
-     margin: 10px 0 0 0;
-}
-
-.mealPrice{
-     color: #994a12;
-     margin: 15px 0;
-}
-
-.mealDescription{
-     font-size: small;
-     margin: 5px 0;
-}
-
-.mealInfo{
-     position: relative;
-     border-bottom: 1px solid rgb(213, 211, 211);
-     margin: 15px 2px 5px -10px;
-}
-
 @keyframes meals-appear {
      from {
           opacity: 0;

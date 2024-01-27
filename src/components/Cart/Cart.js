@@ -10,13 +10,19 @@ const Cart = (props) => {
                <li>{item.name} ${item.price} Qty: {item.quantity}</li>
           ))}
      </ul>)
+     let totalAmount = 0
+     cart_Ctx.items.forEach((item) => {
+          totalAmount += item.price * item.quantity
+     })
+     totalAmount = totalAmount.toFixed(2)
+     console.log(totalAmount)
 
      return (
           <Modal onClose={props.onClose}>
                {cartItems}
                <div className={classes.total}>
                     <span>Total Amount</span>
-                    <span>35.62</span>
+                    <span>${totalAmount}</span>
                </div>
                <div className={classes.actions}>
                     <button className={classes['button--alt']} onClick={props.onClose}>Close</button>

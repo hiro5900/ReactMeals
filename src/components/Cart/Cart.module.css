@@ -44,3 +44,50 @@
      background-color: #8a2b06;
      color: white;
 }
+
+.cartItemContainer {
+     /* background-color: red; */
+     display: flex;
+}
+
+.cartItemMeal {
+     /* background-color: green; */
+}
+
+.cartItemPrice {
+     color: #8a2b06;
+}
+
+.cartItemQty {
+     left: 160px;
+     position: absolute;
+     border: 1px solid gray;
+     border-radius: 5px;
+     font-family: monospace;
+     width: 40px;
+     height: 25px;
+     padding: 1px 0px 0 6px;
+}
+
+.cartItemButtons {
+     right: 30px;
+     position: absolute;
+     margin: 50px 0 0 0;
+}
+
+.cartItemButtons button {
+     width: 40px;
+     height: 30px;
+     margin: 4px;
+     border-radius: 5px;
+     border-color: #8a2b06;
+     border-width: 1px;
+     color: #5a1a01;
+     background-color: white;
+}
+
+.cartItemButtons button:hover{
+     background-color: #8a2b06;
+     color: white;
+     cursor: pointer;
+}
